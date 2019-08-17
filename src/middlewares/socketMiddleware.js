@@ -20,7 +20,7 @@ const socketMiddleware = (function () {
     }
     function connect(store) {
         return new Promise(function (resolve, reject) {
-            socket = new WebSocket('ws://st-chat.shas.tel');
+            socket = new WebSocket('wss://wssproxy.herokuapp.com/');
             store.dispatch(actions.connectionAction());
             socket.onopen = function () {
                 resolve(socket);
