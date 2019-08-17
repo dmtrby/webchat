@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+ *, *::after, *::before {
+	 margin: 0;
+	 padding: 0;
+	 box-sizing: inherit;
+}
+
+:focus {
+  outline: none;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(50deg, #69f, #96f);
+  font-family: 'Lato', sans-serif;
+}
+
+.scroll-style::-webkit-scrollbar-track {
+  background-color: transparent;
+  -webkit-box-shadow: inset 0 0 0.6rem rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 0.6rem rgba(0, 0, 0, 0.3);
+}
+.scroll-style::-webkit-scrollbar {
+  background-color: transparent;
+  width: 0.75rem;
+}
+.scroll-style::-webkit-scrollbar-thumb {
+  background-color: #69f;
+  -webkit-box-shadow: inset 0 0 0.6rem rgba(0, 0, 0, .3);
+  box-shadow: inset 0 0 0.6rem rgba(0, 0, 0, 0.3);
+}
+.scroll-style {
+  scrollbar-color: #69f transparent;
+  scrollbar-width: thin;
+}
+
+input[type="text"] {
+  width: 100%; 
+  box-sizing: border-box;
+  padding: 3px 7px 4px;
+}
+
+.button {
+  box-shadow: rgb(100, 65, 164) 0px 34px 0px -15px inset;
+  background-color: rgb(100, 65, 164);
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  padding: 3px 16px;
+  text-decoration: none;
+  text-shadow: rgb(100, 20, 166) 0px -1px 0px;
+  margin: auto 0.5rem;
+  max-height: 26px;
+}
+
+@media only screen and (max-width: 37.5em) {
+ html {
+  font-size: 55%;
+}
+}
+
+@media only screen and (max-width: 56.25em) {
+  html {
+    font-size: 60%;
+ }
+}

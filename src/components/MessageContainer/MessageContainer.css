@@ -1,0 +1,82 @@
+.messages-container {
+    overflow-y: scroll;
+    word-wrap: break-word;
+    overflow-x: hidden;
+    height: 100%;
+}
+  
+.message {
+    word-break: break-all;
+    padding: .6rem 1rem 1rem;
+    font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
+}
+  
+.message:nth-of-type(2n) {
+    background-color: #DDD;
+}
+  
+.message-username {
+    color: #6699FF;
+    font-weight: 700;
+    margin: 0 .3rem 1rem 0;
+}
+  
+.message-author {
+    color: #7d5bbe;
+    text-decoration: underline;
+    font-weight: 700;
+    margin: 0 .3rem 1rem 0;
+}
+  
+.message-time {
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: "Helvetica Neue", "Helvetica", sans-serif;
+}
+  
+.message-text {
+    color: #1A2A3A;
+}
+  
+div.message.no-send {
+    background-color: #e57373;
+}
+
+.chat-actions {
+    margin-bottom: 1px;
+}
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 0.1rem;
+    box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, .5);
+    height: 60rem;
+    width: 50rem;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 56.25em) {
+    .chat-container {
+      height: 85vh;
+      width: 60vw;
+   }
+   .chat-textarea {
+    border: none;
+    border-top: 0.1rem solid #69f;
+    border-radius: 0;
+    font-size: 2rem;
+    height: 5.8rem;
+    padding-right: 11.75rem;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+    .chat-container {
+      height: 100vh;
+      width: 100vw;
+   }
+  }
