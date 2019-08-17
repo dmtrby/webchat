@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/webchat/static/css/main.1b784748.chunk.css",
+    "main.js": "/webchat/static/js/main.65bd6939.chunk.js",
+    "main.js.map": "/webchat/static/js/main.65bd6939.chunk.js.map",
+    "runtime~main.js": "/webchat/static/js/runtime~main.3a621833.js",
+    "runtime~main.js.map": "/webchat/static/js/runtime~main.3a621833.js.map",
+    "static/js/2.65a8602d.chunk.js": "/webchat/static/js/2.65a8602d.chunk.js",
+    "static/js/2.65a8602d.chunk.js.map": "/webchat/static/js/2.65a8602d.chunk.js.map",
+    "index.html": "/webchat/index.html",
+    "precache-manifest.37fccaa6075e8962f33f39bead8b12f9.js": "/webchat/precache-manifest.37fccaa6075e8962f33f39bead8b12f9.js",
+    "service-worker.js": "/webchat/service-worker.js",
+    "static/css/main.1b784748.chunk.css.map": "/webchat/static/css/main.1b784748.chunk.css.map"
+  }
+}
